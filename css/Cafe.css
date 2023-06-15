@@ -1,0 +1,260 @@
+body {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+
+/* Navigation Bar */
+
+
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.nav-item {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    padding: 0% 18px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.container-fluid {
+    padding: 2% 2%;
+}
+
+.main_background {
+    background-image: url(../Image/coffee-latte-with-cookies-coffiee-beans.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    margin: auto, 0%;
+    padding: auto, 0%;
+
+
+}
+
+.tagline {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Domine';
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 914px;
+}
+
+.register_button {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 1025px;
+    font-family: 'Domine';
+    font-size: 20px;
+    border: solid;
+    border-radius: 50% 20% / 10% 40%;
+    background-image: linear-gradient(45deg, #FFD24C, brown);
+    animation: hue-rotate 2s linear infinite alternate;
+}
+
+@keyframes hue-rotate {
+    to {
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+
+/* Gallery */
+
+
+
+.second_background {
+    background-image: linear-gradient(black, white);
+    background-repeat: repeat;
+    margin: 0%;
+    position: relative;
+    height: 100vh;
+}
+
+
+#gallery_heading {
+    color: #f14a16;
+    font-family: 'Domine';
+    display: inline-block;
+    position: absolute;
+    padding-top: 10px;
+    margin-top: 45px;
+    margin-left: 150px;
+
+}
+
+#image_gallery {
+    text-align: center;
+}
+
+.C1_image {
+    height: 500px;
+    width: 850px;
+}
+
+.carousel-item {
+    padding: 10% 15%;
+}
+
+#carouselExampleSlidesOnly {
+    margin-left: 250px;
+    padding-top: 100px;
+    position: absolute;
+}
+
+
+
+/* Third Page */
+
+
+.third_background {
+    background-image: linear-gradient(white, black);
+    background-repeat: repeat;
+    margin: 0%;
+    position: relative;
+    height: 100vh;
+}
+
+#menu_heading {
+    color: #f14a16;
+    font-family: 'Domine';
+    display: inline-block;
+    position: absolute;
+    padding-top: 10px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+
+/* Menu Card */
+.menu_card {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    margin-top: 150px;
+    color: black;
+    border-color: black;
+    border-style: double;
+}
+
+.card-title {
+    font-family: 'Domine';
+    color: black;
+}
+
+.card-body {
+    background-color: #F24C4C;
+}
+
+.card-text {
+    color: white;
+}
+
+.btn-primary {
+    font-family: 'Domine';
+    color: white;
+    background-color: #614124;
+}
+
+/* Social Media Section */
+
+#social_section {
+    background-color: black;
+}
+
+.media_row {
+    padding: 3%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+.fb_logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.insta_logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.pintrest_logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.twitter_logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.line {
+    background-color: black;
+    color: white;
+    border-color: blue;
+}
+
+/* Last Section */
+
+.last_section {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 0% 10%;
+    padding-top: 5%;
+}
+
+.footer_row {
+    padding: 7% 155;
+}
+
+.footer_head {
+    font-family: 'Domine';
+}
+
+.footer_add {
+    font-family: 'Domine';
+
+}
+
+.cont {
+    padding-bottom: 10%;
+}
+
+.footer_social_media {
+    font-family: 'Domine';
+}
+
+.footer_social_media_icon {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer_copyright {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    font-family: 'Domine';
+    font-size: smaller;
+}

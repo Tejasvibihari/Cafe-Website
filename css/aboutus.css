@@ -1,0 +1,32 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #BDF2D5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+}
+.brand_logo
+{
+    
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.nav-item
+{
+    font-family: 'Domine', cursive;
+    font-size: 20px;
+    padding: 0% 18px;
+    color: black;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+.container-fluid {
+    padding: 2% 2%;
+}

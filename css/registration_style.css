@@ -1,0 +1,156 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #BDF2D5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+}
+.brand_logo
+{
+    
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.nav-item
+{
+    font-family: 'Domine', cursive;
+    font-size: 20px;
+    padding: 0% 18px;
+    color: black;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+.container-fluid {
+    padding: 2% 2%;
+}
+.welcome_image
+{
+    position: relative;
+    display: inline-block;
+}
+.chief_image
+{
+    position: absolute;
+    display: inline-block;
+    height: 500px;
+    padding: 50px;
+    margin-left: 150px;
+
+}
+
+
+/* Form and table */
+
+.registration_heading{
+    font-family:'Domine';
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    text-decoration: underline;
+    color: #ffffff;
+    background-color: #A25B5B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+hr{
+    border: none;
+    border-style: none;
+    width: 100%;
+    background-color: red;
+    color: black;
+}
+
+.full_form
+{
+    position: relative;
+    margin-left: 750px;
+    padding-bottom: 100px;
+    
+}
+
+td
+{
+    padding: 7px;
+    font-family: "Domine";
+}
+.afternoon_cell
+{
+    padding-left: 40px;
+}
+.night_cell
+{
+    padding-left: 40px;
+}
+input{
+    -webkit-border-radius: 8px;
+}
+
+.login_form {
+    box-sizing: border-box;
+
+    position: relative;
+
+    background: #4B8673;
+
+    border: 5px none #1D1E4C;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.register_button
+{
+    font-family: 'Domine';
+    margin-left: 80%;
+    padding-bottom: 10px;
+}
+
+/* Last Section */
+
+.last_section
+{
+    background-color: black;
+    color: white;
+    padding: 0% 10%;
+    padding-top:5% ;
+    
+
+}
+.footer_row{
+    padding: 7%, 155;
+}
+.footer_head{
+    font-family: 'Pacifico';
+}
+.footer_add
+{
+    font-family: 'Domine';
+}
+.cont{
+    padding-bottom: 10%;
+}
+.footer_social_media
+{
+    font-family: 'Domine';
+}
+.footer_social_media_icon
+{
+    padding-left: 15px;
+    padding-right:15px;
+}
+.footer_copyright
+{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    font-family: 'Domine';
+    font-size: smaller;
+}

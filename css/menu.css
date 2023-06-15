@@ -1,0 +1,150 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    /* background-color: #BDF2D5; */
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+}
+.brand_logo
+{
+    
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.nav-item
+{
+    font-family: 'Domine', cursive;
+    font-size: 20px;
+    padding: 0% 18px;
+    color: black;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+.container-fluid {
+    padding: 2% 2%;
+}
+
+/* First Background Image */
+
+.first_background_section
+{
+    background-image: url(Image/wave_1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    margin:0%;
+    padding: 0%;
+}
+.pizza_heading  {
+    text-align: center;
+    font-family: 'Domine';
+}
+.pizza_menu{
+    box-sizing: border-box;
+    border: solid;
+    border-width: 5px;
+    height: 550px;
+    width: 1000px;
+    position: relative;
+    margin-left: 267.5px;
+}
+.veg_pizza{
+    position: absolute;
+
+}
+
+/* Second Navigation Bar */
+
+.menu_navigation_bar
+{
+    background-color: #C9E4C5;
+    text-align: center;
+}
+.menu_navigation
+{
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Domine';
+    color: black;
+}
+.link:hover{
+    color:black;
+}
+
+.menu_heading{
+    font-family: 'Domine';
+    padding: 7px;
+    color: #F15412;
+}
+.card{
+    border: #F15412;
+    border-style: solid;
+    text-align: center;
+    margin: 5px;
+}
+.card-body
+{
+    background-color: #FAFBAF;
+}
+.card-title{
+    font-family: 'Domine';
+}
+.prize
+{
+    font-family: 'Domine';
+    font-weight: bold;
+    font-size: medium;
+    color: red;
+}
+
+
+/* Last Section */
+
+.last_section
+{
+    background-color: black;
+    color: white;
+    padding: 0% 10%;
+    padding-top:5% ;
+    
+
+}
+.footer_row{
+    padding: 7%, 155;
+}
+.footer_head{
+    font-family: 'Pacifico';
+}
+.footer_add
+{
+    font-family: 'Domine';
+}
+.cont{
+    padding-bottom: 10%;
+}
+.footer_social_media
+{
+    font-family: 'Domine';
+}
+.footer_social_media_icon
+{
+    padding-left: 15px;
+    padding-right:15px;
+}
+.footer_copyright
+{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    font-family: 'Domine';
+    font-size: smaller;
+}
